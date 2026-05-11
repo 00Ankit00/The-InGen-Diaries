@@ -1,0 +1,119 @@
+@import "tailwindcss";
+
+@theme {
+  --font-bebas: "Bebas Neue", sans-serif;
+  --font-playfair: "Playfair Display", serif;
+  --font-inter: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+@layer base {
+  :root {
+    /* FOSSIL RECORD (Amber/Earth) */
+    --color-bg-base: #080C0A;
+    --color-bg-card: #0F1A12;
+    --color-bg-surface: #1A2E1E;
+    
+    --color-accent-primary: #F0A500;
+    --color-accent-secondary: #C4A96B;
+    --color-accent-tertiary: #B8860B;
+    
+    --color-text-primary: #E8E0D0;
+    --color-text-secondary: #8A9E8E;
+
+    --color-alert: #FF4444; /* Just in case */
+    --color-border: #B8860B; /* Match highlight */
+    
+    --font-heading: var(--font-bebas);
+    --font-section: var(--font-playfair);
+    --font-body: var(--font-inter);
+    --font-data: var(--font-inter);
+    --font-ui: var(--font-inter);
+  }
+
+  [data-theme="ingen"] {
+    /* INGEN FILE (Terminal Green) */
+    --color-bg-base: #040F08;
+    --color-bg-card: #081A0F;
+    --color-bg-surface: #040F08; /* Fallback for surface */
+    
+    --color-accent-primary: #00FF7F;
+    --color-accent-secondary: #4CAF7D;
+    --color-accent-tertiary: #4CAF7D; /* Using muted for tertiary */
+    
+    --color-text-primary: #E2FFE2;
+    --color-text-secondary: #4CAF7D; /* Terminal muted text */
+
+    --color-alert: #FF4444;
+    --color-border: #1A6B3A;
+
+    --font-heading: var(--font-mono);
+    --font-section: var(--font-mono);
+    --font-body: var(--font-mono);
+    --font-data: var(--font-mono);
+    --font-ui: var(--font-mono);
+  }
+
+  body {
+    @apply bg-[var(--color-bg-base)] text-[var(--color-text-primary)] transition-colors duration-500 ease-in-out;
+    font-family: var(--font-body);
+  }
+}
+
+/* Base utility classes for the theme system to ensure we use the CSS variables */
+@layer utilities {
+  .bg-base { background-color: var(--color-bg-base); }
+  .bg-card { background-color: var(--color-bg-card); }
+  .bg-surface { background-color: var(--color-bg-surface); }
+  
+  .text-primary { color: var(--color-text-primary); }
+  .text-secondary { color: var(--color-text-secondary); }
+  .text-accent { color: var(--color-accent-primary); }
+  .text-alert { color: var(--color-alert); }
+  
+  .border-theme { border-color: var(--color-border); }
+  
+  .font-heading { font-family: var(--font-heading); }
+  .font-section { font-family: var(--font-section); }
+  .font-body { font-family: var(--font-body); }
+  .font-data { font-family: var(--font-data); }
+  .font-ui { font-family: var(--font-ui); }
+}
+
+/* Animations */
+@keyframes terminalBlink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.terminal-blink::after {
+  content: "_";
+  animation: terminalBlink 1s step-end infinite;
+}
+
+.glitch-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  z-index: 50;
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Leaflet Map Overrides */
+.ingen-popup .leaflet-popup-content-wrapper {
+  background: transparent;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 0;
+}
+.ingen-popup .leaflet-popup-tip-container {
+  display: none;
+}
+.ingen-popup .leaflet-popup-content {
+  margin: 0;
+  width: auto !important;
+}
