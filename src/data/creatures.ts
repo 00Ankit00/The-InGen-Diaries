@@ -77,7 +77,7 @@ export const creatures: Creature[] = [
       extended_trivia: ["Fossil evidence shows they had the strongest bite force of any terrestrial animal.","T. rex had forward-facing eyes, giving them binocular vision and excellent depth perception, unlike the film's depiction."]
     },
     ingen_section: {
-      file_number: 'ING-001-TREX', classification: 'Restricted', creation_date: '1989',
+      file_number: 'ING-001-TREX', classification: 'Restricted', creation_date: '1988',
       dna_donors: ["100% Tyrannosaurus genome with standard gap-filling from Common Reed Frog."],
       modifications: ["Vision altered to be movement-based (unintended side effect).", "Slightly scaled up dimensions."],
       containment: "Tier 5 High Security Paddock. 10,000 volt fencing.",
@@ -104,7 +104,7 @@ export const creatures: Creature[] = [
     },
     ingen_section: {
       file_number: 'ING-002-VRAP', classification: 'Classified', creation_date: '1991',
-      dna_donors: ["Velociraptor base", "Deinonychus traits (unconfirmed)", "Cane Toad"],
+      dna_donors: ["Velociraptor base", "Deinonychus traits (unconfirmed)", "Common Reed Frog"],
       modifications: ["Exponentially increased size.", "Feather inhibition.", "Hyper-intelligence conditioning."],
       containment: "Reinforced steel holding pen. Observation from elevated gantry only.",
       incidents: ["1993: Fatalities prior to park opening. Full breach during storm.", "2015: Field testing gone wrong during Indominus asset retrieval."],
@@ -129,7 +129,7 @@ export const creatures: Creature[] = [
       extended_trivia: ["Mosasaurus lived near the ocean's surface and possessed a shark-like fluked tail.","Their jaw possessed a second set of teeth farther back, similar to snakes."]
     },
     ingen_section: {
-      file_number: 'ING-003-MOSA', classification: 'Restricted', creation_date: '2014',
+      file_number: 'ING-003-MOSA', classification: 'Restricted', creation_date: '2007',
       dna_donors: ["Mosasaurus genome", "Various modern marine life for scale adaptation"],
       modifications: ["Significant size augmentation for stadium spectacle.", "Accelerated growth."],
       containment: "Jurassic World Lagoon. 3 million gallon tank with reinforced observation deck.",
@@ -181,7 +181,7 @@ export const creatures: Creature[] = [
       extended_trivia: ["It is slightly longer but more lightly built than Tyrannosaurus Rex.","Fossil trackways suggest Giganotosaurini hunted in packs to bring down giant titanosaurs."]
     },
     ingen_section: {
-      file_number: 'ING-005-GIGA', classification: 'Restricted', creation_date: '2021',
+      file_number: 'ING-005-GIGA', classification: 'Restricted', creation_date: 'Unknown (possibly pre-2018)',
       dna_donors: ["100% Giganotosaurus genome reconstructed by BioSyn."],
       modifications: ["None officially (BioSyn purist initiative), but exhibits unusual behavioral dominance displays."],
       containment: "BioSyn Sanctuary, Italy.",
@@ -233,7 +233,7 @@ export const creatures: Creature[] = [
       extended_trivia: ["Its name means 'meat-eating bull' referring to its unique demonic horns.","It has the shortest, most reduced forelimbs of any large theropod, smaller even than T. rex's."]
     },
     ingen_section: {
-      file_number: 'ING-007-CARN', classification: 'Restricted', creation_date: '2004',
+      file_number: 'ING-007-CARN', classification: 'Restricted', creation_date: 'Between 1986 and 1993',
       dna_donors: ["Carnotaurus genome", "Tree frog"],
       modifications: ["Size upscaling for intimidation factor.", "Accelerated aggressive tendencies."],
       containment: "Isla Nublar North sector.",
@@ -259,7 +259,7 @@ export const creatures: Creature[] = [
       extended_trivia: ["Allosaurus jaws could act like a hatchet, slamming down on prey to inflict maximum bleeding.","Fossil evidence shows extensive combat injuries, particularly spiked tail punctures from Stegosaurus."]
     },
     ingen_section: {
-      file_number: 'ING-008-ALLO', classification: 'Restricted', creation_date: '1999',
+      file_number: 'ING-008-ALLO', classification: 'Restricted', creation_date: 'Between 2000 and 2015',
       dna_donors: ["Allosaurus baseline."],
       modifications: ["Minor genetic smoothing.", "Growth acceleration."],
       containment: "Isla Nublar Paddock 9.",
@@ -285,7 +285,7 @@ export const creatures: Creature[] = [
       extended_trivia: ["The original fossil found in Surrey, England, still contained fossilized fish scales in its stomach region.","It had an elongated snout filled with conical, crocodile-like teeth."]
     },
     ingen_section: {
-      file_number: 'ING-009-BARY', classification: 'Restricted', creation_date: '1995',
+      file_number: 'ING-009-BARY', classification: 'Restricted', creation_date: 'Between 1986 and 1993',
       dna_donors: ["Baryonyx genome."],
       modifications: ["Jaw structure thickened for terrestrial prey consumption.", "Aggression elevated."],
       containment: "Isla Nublar River Region.",
@@ -311,7 +311,7 @@ export const creatures: Creature[] = [
       extended_trivia: ["Its name translates directly as 'fire thief', inspired by its discovery area recovering from a wildfire.","As a Dromaeosaur, it possessed the distinct 'killing claw' characteristic of the raptor family."]
     },
     ingen_section: {
-      file_number: 'ING-010-PYRO', classification: 'Classified', creation_date: '2020',
+      file_number: 'ING-010-PYRO', classification: 'Classified', creation_date: 'Unknown (possibly pre-2018)',
       dna_donors: ["Pyroraptor fragments reconstructed by BioSyn."],
       modifications: ["Cold resistance.", "Amphibious adaptation for ice water diving.", "Full feather plumage intact."],
       containment: "BioSyn frozen valley sector.",
@@ -337,7 +337,7 @@ export const creatures: Creature[] = [
       extended_trivia: ["The largest flying animal in Earth's history, standing as tall as a giraffe when grounded.","It did not hunt by plucking fish from the ocean, opting instead to stalk across plains like a giant heron."]
     },
     ingen_section: {
-      file_number: 'ING-011-QUET', classification: 'Public', creation_date: '2021',
+      file_number: 'ING-011-QUET', classification: 'Public', creation_date: 'Unknown (possibly pre-2018)',
       dna_donors: ["BioSyn asset reconstruction."],
       modifications: ["Aggressive territorial expansion."],
       containment: "Uncontained. BioSyn aerial dampening field.",
@@ -363,7 +363,7 @@ export const creatures: Creature[] = [
       extended_trivia: ["Pteranodon means 'winged and toothless', making the Jurassic clones structurally paradoxical.","Males possessed massive cranial crests primarily used for sexual display rather than flight aerodynamics."]
     },
     ingen_section: {
-      file_number: 'ING-012-PTER', classification: 'Restricted', creation_date: '1998',
+      file_number: 'ING-012-PTER', classification: 'Restricted', creation_date: 'Between 1986 and 1993',
       dna_donors: ["Pteranodon genome", "Avian donors (Eagle)"],
       modifications: ["Prehensile feet capable of lifting heavy loads.", "Teeth reintroduced via genetic anomaly.", "Aggression heightened towards humans."],
       containment: "Jurassic World Aviary. Shatter-proof glass.",
@@ -389,7 +389,7 @@ export const creatures: Creature[] = [
       extended_trivia: ["It possessed two fully distinct types of teeth, a trait extremely rare among reptiles.","Its flight capabilities were likely clumsy, relying heavily on climbing and gliding."]
     },
     ingen_section: {
-      file_number: 'ING-013-DIMO', classification: 'Public', creation_date: '2004',
+      file_number: 'ING-013-DIMO', classification: 'Public', creation_date: 'Between 2000 and 2015',
       dna_donors: ["Dimorphodon base."],
       modifications: ["None."],
       containment: "Jurassic World Aviary alongside Pteranodons.",
@@ -415,7 +415,7 @@ export const creatures: Creature[] = [
       extended_trivia: ["The real animal did not spit venom or have a frill—those were pure InGen genetic artifacts.","It was actually the apex predator of the Early Jurassic, reaching over 20 feet in length."]
     },
     ingen_section: {
-      file_number: 'ING-014-DILO', classification: 'Restricted', creation_date: '1992',
+      file_number: 'ING-014-DILO', classification: 'Restricted', creation_date: 'Between 1986 and 1993',
       dna_donors: ["Dilophosaurus genome", "Poison Dart Frog", "Frilled Lizard"],
       modifications: ["Added venom glands.", "Added expandable neck frill.", "Size stunting."],
       containment: "Isla Nublar Tour Route.",
@@ -441,7 +441,7 @@ export const creatures: Creature[] = [
       extended_trivia: ["It was historically the first dinosaur recognized from a reasonably complete skeleton.","For decades, it was the smallest known non-avian dinosaur globally."]
     },
     ingen_section: {
-      file_number: 'ING-015-COMP', classification: 'Public', creation_date: '1995',
+      file_number: 'ING-015-COMP', classification: 'Public', creation_date: 'Between 1986 and 1993',
       dna_donors: ["Compsognathus genome"],
       modifications: ["Feather suppression."],
       containment: "Unable to contain natively due to small size. Frequently escapes paddocks.",
@@ -467,7 +467,7 @@ export const creatures: Creature[] = [
       extended_trivia: ["It is not a dinosaur at all; it's a synapsid, placing it closer to mammals than to reptiles on the evolutionary tree.","It went completely extinct 40 million years before the first true dinosaur existed."]
     },
     ingen_section: {
-      file_number: 'ING-016-DIME', classification: 'Public', creation_date: '2021',
+      file_number: 'ING-016-DIME', classification: 'Public', creation_date: 'Unknown (possibly pre-2018)',
       dna_donors: ["BioSyn extraction efforts."],
       modifications: ["None."],
       containment: "BioSyn amber mine caverns.",
@@ -493,7 +493,7 @@ export const creatures: Creature[] = [
       extended_trivia: ["The dome atop its skull could grow up to 10 inches thick.","Recent theories suggest different named 'species' like Dracorex are actually just juvenile states of Pachycephalosaurus."]
     },
     ingen_section: {
-      file_number: 'ING-017-PACH', classification: 'Public', creation_date: '1995',
+      file_number: 'ING-017-PACH', classification: 'Public', creation_date: 'Between 1986 and 1993',
       dna_donors: ["Pachycephalosaurus genome."],
       modifications: ["Enhanced skull density."],
       containment: "Standard herbivore paddock.",
@@ -519,7 +519,7 @@ export const creatures: Creature[] = [
       extended_trivia: ["Its massive tail club was highly effective at shattering the bones of attacking Tyrannosaurs.","It was practically immune to predators from the top, requiring them to be flipped over to be vulnerable."]
     },
     ingen_section: {
-      file_number: 'ING-018-ANKY', classification: 'Public', creation_date: '2001',
+      file_number: 'ING-018-ANKY', classification: 'Public', creation_date: '1999',
       dna_donors: ["Base Ankylosaurus."],
       modifications: ["Slight armor density augmentation via crocodile DNA."],
       containment: "Valley Explorer Area.",
@@ -545,7 +545,7 @@ export const creatures: Creature[] = [
       extended_trivia: ["Its brain was roughly the size of a modern walnut.","The distinct spiked arrangement on the end of its tail is officially called a 'thagomizer' by paleontologists."]
     },
     ingen_section: {
-      file_number: 'ING-019-STEG', classification: 'Public', creation_date: '1995',
+      file_number: 'ING-019-STEG', classification: 'Public', creation_date: 'Between 1986 and 1993',
       dna_donors: ["Stegosaurus genome."],
       modifications: ["None significant."],
       containment: "Isla Sorna wide grazing.",
@@ -571,7 +571,7 @@ export const creatures: Creature[] = [
       extended_trivia: ["A third of its entire body length consisted of its massive skull.","Its neck frill was likely used more for species recognition and sexual display than for physical combat."]
     },
     ingen_section: {
-      file_number: 'ING-020-TRIC', classification: 'Public', creation_date: '1992',
+      file_number: 'ING-020-TRIC', classification: 'Public', creation_date: 'Between 1986 and 1993',
       dna_donors: ["Triceratops genome."],
       modifications: ["West Indian Lilac allergy due to minor genetic miscoding."],
       containment: "Isla Nublar Herbivore Enclosure.",
@@ -597,7 +597,7 @@ export const creatures: Creature[] = [
       extended_trivia: ["It is the first incredibly large ceratopsid ever discovered in China.","Unlike Triceratops, it possessed a large nasal horn but entirely lacked brow horns."]
     },
     ingen_section: {
-      file_number: 'ING-021-SINC', classification: 'Public', creation_date: '2016',
+      file_number: 'ING-021-SINC', classification: 'Public', creation_date: '2014',
       dna_donors: ["Sinoceratops genome."],
       modifications: ["Pachyrhinosaurus sequence gap-filling causing skull holes."],
       containment: "Isla Nublar Sector 6.",
@@ -623,7 +623,7 @@ export const creatures: Creature[] = [
       extended_trivia: ["Its name means 'large-nosed horned face', recognizing its unusually oversized nasal region.","Its horns point forward like a modern bull's, differentiating it widely from its cousins."]
     },
     ingen_section: {
-      file_number: 'ING-022-NASU', classification: 'Public', creation_date: '2020',
+      file_number: 'ING-022-NASU', classification: 'Public', creation_date: 'Unknown',
       dna_donors: ["BioSyn extraction."],
       modifications: ["None."],
       containment: "Found roaming wild post-Dominion.",
@@ -726,7 +726,7 @@ export const creatures: Creature[] = [
       extended_trivia: ["It had proportionally massive front legs, sloping its massive back steeply downwards.","Unlike depictions in early cinema, it physically couldn't rear up on its hind legs without breaking its own spine."]
     },
     ingen_section: {
-      file_number: 'ING-026-BRAC', classification: 'Public', creation_date: '1990',
+      file_number: 'ING-026-BRAC', classification: 'Public', creation_date: 'Between 1986 and 1993',
       dna_donors: ["Brachiosaurus genome."],
       modifications: ["Vocal cord enhancements to produce whale-like calls."],
       containment: "Isla Nublar plains.",
@@ -752,7 +752,7 @@ export const creatures: Creature[] = [
       extended_trivia: ["The famous 'Brontosaurus' was actually incorrectly identified Apatosaurus bones for a century.","Its long sweeping tail could break the sound barrier like a bullwhip to scare predators."]
     },
     ingen_section: {
-      file_number: 'ING-027-APAT', classification: 'Public', creation_date: '2010',
+      file_number: 'ING-027-APAT', classification: 'Public', creation_date: 'Between 2000 and 2015',
       dna_donors: ["Apatosaurus baseline."],
       modifications: ["None."],
       containment: "Gyrosphere valley, Jurassic World.",
@@ -804,7 +804,7 @@ export const creatures: Creature[] = [
       extended_trivia: ["One of the few species where mummified scale and skin impressions have been entirely preserved.","They could run efficiently on two legs to escape danger, dropping to four to graze."]
     },
     ingen_section: {
-      file_number: 'ING-029-EDMO', classification: 'Public', creation_date: '1996',
+      file_number: 'ING-029-EDMO', classification: 'Public', creation_date: 'Between 1986 and 1993',
       dna_donors: ["Edmontosaurus genome."],
       modifications: ["Fleshy crest suppressed."],
       containment: "Isla Sorna wide areas.",
@@ -856,7 +856,7 @@ export const creatures: Creature[] = [
       extended_trivia: ["The giant crest contained complex respiratory tubes used to amplify sound across miles like a trombone.","Most of its distinct features evolved for herd communication and mating rights."]
     },
     ingen_section: {
-      file_number: 'ING-031-PARA', classification: 'Public', creation_date: '1991',
+      file_number: 'ING-031-PARA', classification: 'Public', creation_date: 'Between 1986 and 1993',
       dna_donors: ["Parasaurolophus genome."],
       modifications: ["Vivid bio-luminescent skin patterning in Camp Cretaceous variant."],
       containment: "Isla Nublar River Tour.",
@@ -882,7 +882,7 @@ export const creatures: Creature[] = [
       extended_trivia: ["The largest ornithomimid known, approaching the weight of a modern horse.","It possessed large eyes placed on the sides of its head, granting massive peripheral vision to dodge predators."]
     },
     ingen_section: {
-      file_number: 'ING-032-GALL', classification: 'Public', creation_date: '1992',
+      file_number: 'ING-032-GALL', classification: 'Public', creation_date: 'Between 1986 and 1993',
       dna_donors: ["Gallimimus genome.", "Ostrich (for gap filling and speed constraints)"],
       modifications: ["Feather suppression.", "Herd coordination enhanced."],
       containment: "Gallimimus Valley, Isla Nublar.",
@@ -928,7 +928,7 @@ export const creatures: Creature[] = [
     type: 'ingen_hybrid', diet: 'carnivore', era: 'Modern (InGen)', threat_level: 5, tier: 1,
     real_length_m: 0, movie_length_m: 7.3, real_weight_kg: 0, movie_weight_kg: 1000,
     ingen_section: {
-      file_number: 'ING-034-IRAP', classification: 'Classified', creation_date: '2018',
+      file_number: 'ING-034-IRAP', classification: 'Classified', creation_date: 'Between 2016 and 2018',
       dna_donors: ["Indominus Rex genome baseline", "Pure Velociraptor (Blue)"],
       modifications: ["Echolocation properties.", "Acoustic-targeting response (laser and sound conditioned trigger).", "Scaled down for interior navigation."],
       containment: "Lockwood Manor Level 3 Sub-Basement.",
@@ -980,7 +980,7 @@ export const creatures: Creature[] = [
     type: 'ingen_hybrid', diet: 'carnivore', era: 'Modern (InGen)', threat_level: 5, tier: 1,
     real_length_m: 0, movie_length_m: 14.5, real_weight_kg: 0, movie_weight_kg: 10000,
     ingen_section: {
-      file_number: 'ING-036-DREX', classification: 'Classified', creation_date: '2008',
+      file_number: 'ING-036-DREX', classification: 'Classified', creation_date: 'Between late 2009 and 2010',
       dna_donors: ["Tyrannosaurus rex", "Unidentified Deep-Sea Organisms"],
       modifications: ["Six-limbed structure.", "Hyper-regenerative tissue.", "Bioluminescent capabilities."],
       containment: "Île Saint-Hubert underground bunker. Currently breached.",
@@ -1005,7 +1005,7 @@ export const creatures: Creature[] = [
     type: 'ingen_hybrid', diet: 'carnivore', era: 'Modern (InGen)', threat_level: 5, tier: 2,
     real_length_m: 0, movie_length_m: 6.0, real_weight_kg: 0, movie_weight_kg: 800,
     ingen_section: {
-      file_number: 'ING-037-MUTA', classification: 'Classified', creation_date: '2023',
+      file_number: 'ING-037-MUTA', classification: 'Classified', creation_date: 'Between late 2009 and 2010',
       dna_donors: ["Velociraptor", "Pteranodon", "Bat"],
       modifications: ["Capable of both sustained flight and bipedal running.", "Echolocation hunting logic.", "Pack mentality."],
       containment: "Uncontained. Roaming Île Saint-Hubert.",
